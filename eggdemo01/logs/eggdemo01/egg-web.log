@@ -1,0 +1,60 @@
+2018-11-06 19:40:14,385 INFO 7074 [egg:logger] init all loggers with options: {"dir":"/Users/scott/Documents/self/eggProject/eggdemo01/logs/eggdemo01","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo01-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-06 19:40:14,426 INFO 7074 [egg-schedule]: register schedule /Users/scott/Documents/self/eggProject/eggdemo01/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-06 19:40:14,426 INFO 7074 [egg-schedule]: register schedule /Users/scott/Documents/self/eggProject/eggdemo01/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-06 19:40:14,426 INFO 7074 [egg-multipart] stream mode enable
+2018-11-06 19:40:14,600 INFO 7074 [egg-static] starting static serve /public/ -> /Users/scott/Documents/self/eggProject/eggdemo01/app/public
+2018-11-06 19:40:14,605 INFO 7074 [egg-security] use csrf middleware
+2018-11-06 19:40:14,607 INFO 7074 [egg-security] use methodnoallow middleware
+2018-11-06 19:40:14,609 INFO 7074 [egg-security] use noopen middleware
+2018-11-06 19:40:14,611 INFO 7074 [egg-security] use nosniff middleware
+2018-11-06 19:40:14,612 INFO 7074 [egg-security] use xssProtection middleware
+2018-11-06 19:40:14,614 INFO 7074 [egg-security] use xframe middleware
+2018-11-06 19:40:14,616 INFO 7074 [egg-security] use dta middleware
+2018-11-06 19:40:14,616 INFO 7074 [egg-security] compose 7 middlewares into one security middleware
+2018-11-06 19:40:14,629 INFO 7074 [egg:core] dump config after load, 5ms
+2018-11-06 19:40:14,646 INFO 7074 [egg-watcher:application] watcher start success
+2018-11-06 19:40:14,652 INFO 7074 [egg:core] dump config after ready, 3ms
+2018-11-06 19:47:02,510 INFO 7246 [egg:logger] init all loggers with options: {"dir":"/Users/scott/Documents/self/eggProject/eggdemo01/logs/eggdemo01","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo01-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-06 19:47:02,563 INFO 7246 [egg-schedule]: register schedule /Users/scott/Documents/self/eggProject/eggdemo01/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-06 19:47:02,563 INFO 7246 [egg-schedule]: register schedule /Users/scott/Documents/self/eggProject/eggdemo01/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-06 19:47:02,564 INFO 7246 [egg-multipart] stream mode enable
+2018-11-06 19:47:02,720 INFO 7246 [egg-static] starting static serve /public/ -> /Users/scott/Documents/self/eggProject/eggdemo01/app/public
+2018-11-06 19:47:02,724 INFO 7246 [egg-security] use csrf middleware
+2018-11-06 19:47:02,726 INFO 7246 [egg-security] use methodnoallow middleware
+2018-11-06 19:47:02,727 INFO 7246 [egg-security] use noopen middleware
+2018-11-06 19:47:02,730 INFO 7246 [egg-security] use nosniff middleware
+2018-11-06 19:47:02,731 INFO 7246 [egg-security] use xssProtection middleware
+2018-11-06 19:47:02,733 INFO 7246 [egg-security] use xframe middleware
+2018-11-06 19:47:02,735 INFO 7246 [egg-security] use dta middleware
+2018-11-06 19:47:02,735 INFO 7246 [egg-security] compose 7 middlewares into one security middleware
+2018-11-06 19:47:02,747 INFO 7246 [egg:core] dump config after load, 6ms
+2018-11-06 19:47:02,766 INFO 7246 [egg-watcher:application] watcher start success
+2018-11-06 19:47:02,774 INFO 7246 [egg:core] dump config after ready, 4ms
+2018-11-06 21:06:25,620 WARN 7246 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-06 22:22:40,100 WARN 7246 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-07 00:04:25,114 WARN 7246 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-07 02:05:22,575 WARN 7246 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-11-07 02:05:22,575 WARN 7246 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-07 03:03:38,633 WARN 7246 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-07 05:04:16,595 WARN 7246 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-11-07 05:04:16,596 WARN 7246 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-07 07:05:14,076 WARN 7246 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-07 09:05:52,686 WARN 7246 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-11-07 09:05:52,686 WARN 7246 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-07 09:44:55,956 WARN 7246 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-07 09:53:39,983 INFO 7564 [egg:logger] init all loggers with options: {"dir":"/Users/scott/Documents/self/eggProject/eggdemo01/logs/eggdemo01","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo01-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-07 09:53:40,022 INFO 7564 [egg-schedule]: register schedule /Users/scott/Documents/self/eggProject/eggdemo01/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-07 09:53:40,022 INFO 7564 [egg-schedule]: register schedule /Users/scott/Documents/self/eggProject/eggdemo01/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-07 09:53:40,022 INFO 7564 [egg-multipart] stream mode enable
+2018-11-07 09:53:40,198 INFO 7564 [egg-static] starting static serve /public/ -> /Users/scott/Documents/self/eggProject/eggdemo01/app/public
+2018-11-07 09:53:40,202 INFO 7564 [egg-security] use csrf middleware
+2018-11-07 09:53:40,204 INFO 7564 [egg-security] use methodnoallow middleware
+2018-11-07 09:53:40,206 INFO 7564 [egg-security] use noopen middleware
+2018-11-07 09:53:40,208 INFO 7564 [egg-security] use nosniff middleware
+2018-11-07 09:53:40,209 INFO 7564 [egg-security] use xssProtection middleware
+2018-11-07 09:53:40,211 INFO 7564 [egg-security] use xframe middleware
+2018-11-07 09:53:40,213 INFO 7564 [egg-security] use dta middleware
+2018-11-07 09:53:40,213 INFO 7564 [egg-security] compose 7 middlewares into one security middleware
+2018-11-07 09:53:40,225 INFO 7564 [egg:core] dump config after load, 7ms
+2018-11-07 09:53:40,247 INFO 7564 [egg-watcher:application] watcher start success
+2018-11-07 09:53:40,253 INFO 7564 [egg:core] dump config after ready, 4ms
