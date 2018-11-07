@@ -9,5 +9,11 @@ module.exports = appInfo => {
   // add your config here
   config.middleware = [];
 
+  //配置模板引擎
+  config.view = {
+    mapping: {
+      '.html': 'ejs',//指定模板引擎的后缀名
+    },
+  }
   return config;
 };
