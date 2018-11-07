@@ -72,3 +72,7 @@ app/schedule/** 用于定时任务，可选，具体参见定时任务。
 
 app/view/** 用于放置模板文件，可选，由模板插件约定，具体参见模板渲染。
 app/model/** 用于放置领域模型，可选，由领域类相关插件约定，如 egg-sequelize。
+
+## ejs
+npm i egg-view-ejs --save
+配置plugin.js
