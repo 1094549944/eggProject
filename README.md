@@ -7,7 +7,7 @@ eggjs
 # app 
  controller: 业务逻辑
  view:视图，模板 页面展示
- model(service):和数据交互，和数据库相关
+ model(service):和数据交互，和数据库相关,请求接口,包括一些复杂的业务逻辑
  middleware:处理中间件
 
 
@@ -76,3 +76,5 @@ app/model/** 用于放置领域模型，可选，由领域类相关插件约定�
 ## ejs
 npm i egg-view-ejs --save
 配置plugin.js
+
+## 
