@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../public/css/newList.css"></link>
+    <title>新闻列表</title>
+  </head>
+  <body>
+    我是新闻页面
+    <p>显示传过来的数据</p>
+    msg：<%=msg%>
+    <br />
+    id:<%=id%>
+    <ul>
+      <%for(var i =0;i<list.length;i++){%>
+          <li><%=list[i].id%>:<%=list[i].name%></li></li>
+        <%}%>
+      
+    </ul>
+    <img src="./../public/images/微信图片_20181023110014.jpg"></img>
+  </body>
+</html>
