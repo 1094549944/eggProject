@@ -1,4 +1,0 @@
-2018-11-06 19:40:14,662 INFO 7073 [Timer] /Users/scott/Documents/self/eggProject/eggdemo01/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-11-07 00:00:00.000
-2018-11-06 19:40:14,662 INFO 7073 [Timer] /Users/scott/Documents/self/eggProject/eggdemo01/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-11-07 00:00:01.000
-2018-11-07 09:53:40,262 INFO 7563 [Timer] /Users/scott/Documents/self/eggProject/eggdemo01/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-11-08 00:00:00.000
-2018-11-07 09:53:40,263 INFO 7563 [Timer] /Users/scott/Documents/self/eggProject/eggdemo01/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-11-08 00:00:01.000
