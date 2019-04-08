@@ -13,4 +13,6 @@ module.exports = app => {
   router.get('/viewList/:id', controller.news.viewList);
   router.get('/indexNewsP/:page', controller.newsP.indexNewsP);
   router.get('/newsContent', controller.newsP.newsContent);
+  router.get('/form', controller.form.index);
+  router.post('/addPost', controller.form.addPost);
 };

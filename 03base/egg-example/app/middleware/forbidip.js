@@ -11,7 +11,7 @@ module.exports = (options, app) => {
     // 传入
     const getIp = options.ipList;
     // 获取客户端的ip
-    console.log(ctx.request.ip);
+    // console.log(ctx.request.ip);
 
     for (const value in getIp) {
       if (ctx.request.ip == getIp[value]) {
@@ -19,7 +19,7 @@ module.exports = (options, app) => {
         ctx.state = 403;
         ctx.body = '您的ip 已经被屏蔽';
       } else {
-        console.log(options.title);
+        // console.log(options.title);
         await next();
       }
     }
